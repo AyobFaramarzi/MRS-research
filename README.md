@@ -1,6 +1,8 @@
 # MRS Research
 
-This repository provides a central overview of my research experience in magnetic resonance spectroscopy (MRS), with a focus on brain tumor imaging, metabolite analysis, and machine learning-based classification.
+![MRS research map](figures/mrs-research-map.svg)
+
+This repository provides a central overview of my research experience in magnetic resonance spectroscopy (MRS), with a focus on brain tumor imaging, metabolite analysis, signal processing, and machine learning-based classification.
 
 ## Research Themes
 
@@ -19,26 +21,28 @@ This repository provides a central overview of my research experience in magneti
 
 [Analysis of Glioblastoma Multiforme Tumor Metabolites Using Multivoxel Magnetic Resonance Spectroscopy](https://github.com/AyobFaramarzi/MRS-Glioblastoma-Metabolite-Analysis)
 
-This project describes multivoxel MRS analysis of metabolic differences between tumoral and normal brain voxels in patients with glioblastoma.
+This project examines multivoxel MRS data from glioblastoma patients, including metabolite quantification, metabolite ratios, statistical comparisons, and ROC-based diagnostic analysis.
 
 ### MRS and Machine Learning
 
 [Semi-Automated Glioblastoma Tumor Detection Based on Different Classifiers Using Magnetic Resonance Spectroscopy](https://github.com/AyobFaramarzi/MRS-Glioblastoma-Machine-Learning)
 
-This project describes the use of MRS-derived metabolic features with multiple machine learning classifiers for glioblastoma tumor detection.
+This project examines MRS-derived Cho and NAA features with multilayer perceptron, linear SVM, Gaussian SVM, and fuzzy classification approaches for tumor-versus-non-tumor voxel discrimination.
 
-## Earlier MRS Work
-
-An earlier study investigated glioblastoma detection using magnetic resonance spectroscopy and Support Vector Machine classification.
+### Earlier MRS Work
 
 **Detection of Glioblastoma Multiforme Tumor in Magnetic Resonance Spectroscopy Based on Support Vector Machine**
+
+This earlier study represents the initial stage of my MRS-based tumor detection and machine learning work using Support Vector Machine classification.
 
 ## Research Workflow
 
 ```text
 Magnetic Resonance Spectroscopy
         ↓
-MRS Signal Processing
+Voxel / Region Identification
+        ↓
+Water Suppression and Signal Processing
         ↓
 Metabolite Quantification
         ↓
@@ -46,7 +50,7 @@ Feature Extraction
         ↓
 Statistical Analysis / Classification
         ↓
-Glioblastoma Research
+Diagnostic Evaluation
 ```
 
 ## Software and Methods
@@ -57,7 +61,9 @@ Glioblastoma Research
 - SPSS
 - Machine Learning
 - Support Vector Machines
-- Neural Networks
+- Multilayer Perceptron
+- Fuzzy Classification
+- ROC Analysis
 
 ## Author
 
